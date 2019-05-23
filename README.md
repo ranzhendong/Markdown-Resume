@@ -1,9 +1,7 @@
-<div align="center">
-    <h1>
-	Markdown-Resume
-    </h1>
-	<img src="assets/preview.png">
-</div>
+
+
+<img src="./Resume.png">
+
 
 ## 如何使用
 
@@ -11,7 +9,41 @@
 
 ## 导出 PDF
 
-推荐使用 Typora 编辑器，可以导出 PDF。
+推荐使用 Typora 编辑器，先导出成 HTML，之后再使用浏览器打印成 PDF。
+
+因为 Markdown 格式不够紧凑，需要修改一些样式，否则会让原本只要一页的内容变成两三页。
+
+（1）将 resume.css 复制到 Typora 的主题文件夹
+
+![](assets/1.png)
+
+（2）主题文件夹可以在“文件->偏好设置->主题文件夹“中打开
+
+![](assets/2.png)
+
+![](assets/3.png)
+
+（3）之后重启一下 Typora 编辑器，并在主题中选择 Resume。
+
+![](assets/4.png)
+
+（4）使用以下方式导出成 HTML：文件 -> 导出 -> HTML
+
+![](assets/5.png)
+
+（5）使用浏览器打开导出的 HTML 文件，并按“ctrl+P”打印，需要去除页眉页脚。
+
+![](assets/6.png)
+
+
+
+## 简历格式检查
+
+https://cyc2018.github.io/Text-Typesetting/
+
+![](assets/check-resume.png)
+
+
 
 ## 关于图标
 
